@@ -71,7 +71,7 @@ export type LanguagesStateType = {
 }
 
 type CopiedSnippet = {
-    code: string;
+    code: string; // string?
     currSnippetLng: Languages;
     currSnippetName: string;
     ownerUsername: string;
